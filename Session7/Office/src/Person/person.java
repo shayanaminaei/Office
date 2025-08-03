@@ -1,8 +1,8 @@
-package Human;
+package Person;
 
 import java.util.Scanner;
 
-public class Human {
+public class person {
     protected String name;
     protected String lastName;
     protected String nationalId;
@@ -10,14 +10,14 @@ public class Human {
 
     protected Scanner scan = new Scanner(System.in);
 
-    public Human(String name, String lastName, String nationalId, String address) {
+    public person(String name, String lastName, String nationalId, String address) {
         this.name = name;
         this.lastName = lastName;
         this.nationalId = nationalId;
         this.address = address;
     }
 
-    public Human() {}
+    public person() {}
 
     public void setName(String name) { this.name = name; }
     public void setLastName(String lastName) { this.lastName = lastName; }

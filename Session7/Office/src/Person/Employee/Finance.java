@@ -1,4 +1,4 @@
-package Human.Employee;
+package Person.Employee;
 
 
 public class Finance extends Employee {

@@ -1,4 +1,4 @@
-package Human.Client;
+package Person.Client;
 
 public class Retail extends Client {
     private String loyaltyCardId;

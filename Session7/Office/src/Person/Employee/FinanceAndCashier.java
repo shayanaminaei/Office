@@ -1,4 +1,4 @@
-package Human.Employee;
+package Person.Employee;
 
 public class FinanceAndCashier extends Finance {
     private String cashRegisterId;

@@ -1,8 +1,8 @@
-package Human.Client;
+package Person.Client;
 
-import human.Human;
+import Person.person;
 
-public class Client extends Human {
+public class Client extends person {
     private String phoneNumber;
 
     public Client(String name, String lastName, String nationalId, String address, String phoneNumber) {

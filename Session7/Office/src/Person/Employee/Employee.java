@@ -1,8 +1,8 @@
-package Human.Employee;
+package Person.Employee;
 
-import Human.Human;
+import Person.person;
 
-public class Employee extends Human {
+public class Employee extends person {
     public Employee(String name, String lastName, String nationalId, String address) {
         super(name, lastName, nationalId, address);
     }
