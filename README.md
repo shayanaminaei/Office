@@ -1,27 +1,28 @@
 # 🏢 Office Project by Shayan Aminaei
 
-This project is a simple **Employee and Customer Management System** implemented in **Java**, using **Object-Oriented Programming** principles such as **Inheritance**.  
-It is designed based on a UML diagram and demonstrates class relationships in a business office context.
+This project is a simple **Employee and Client Management System** implemented in **Java**, following **Object-Oriented Programming (OOP)** principles such as **Inheritance** and **Encapsulation**.  
+It is designed according to a UML diagram and models a business office scenario with different types of employees and clients.
 
 ---
 
 ## 📌 Features
-- Uses **inheritance** to create different employee and customer types.
-- Allows adding **multiple employees or customers** in a loop.
-- Saves and displays user input in an organized format.
-- Class structure fully follows the provided **UML diagram**.
+- Implements **inheritance** to define various employee and client subclasses.  
+- Supports adding **multiple employees or clients** interactively via console input.  
+- Each class handles its own data input (`save()` method) and information display (`showInfo()` method).  
+- Structured code based on the provided **UML diagram** to demonstrate class hierarchies and relationships.
 
 ---
 
-## 📜 Classes
-According to the UML diagram, the project contains:
+## 📜 Classes Overview
+The system includes:
 
-1. **Retail Customer**  
-2. **Wholesale Customer**  
-3. **Sales/Warehouse Employee**  
-4. **Financial Employee**  
-5. **Administrative Employee**  
-6. **Sales Employee**
+1. **Retail Client**  
+2. **Wholesale Client**  
+3. **Office Employee**  
+4. **Finance Employee**  
+5. **Finance and Cashier Employee**
+
+*(Other classes like Sales or Warehouse employees can be added similarly.)*
 
 ---
 
@@ -48,21 +49,14 @@ javac src/**/*.java
 java Main
 ```
 
+## 📚 Concepts Used
+- Object-Oriented Programming (OOP)  
+- **Inheritance** for class hierarchies  
+- **Encapsulation** of class fields and methods  
+- Using **Scanner** for console input  
+- Looping structures to allow multiple entries  
 
-📚 Concepts Used
-Object-Oriented Programming (OOP)
-
-  **Inheritance**
-
- **Encapsulation**
-
-  **Scanner for user input**
-
-  **Looping for adding multiple records**
--------
-
-  ✨ Future Improvements
-  ```
-     #############
-  ```
+---
+  ✨ Future Improvements will be added
+ 
 👨‍💻 Author:([@shayanaminaei](https://github.com/shayanaminaei))
